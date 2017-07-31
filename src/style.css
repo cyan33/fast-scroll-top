@@ -1,0 +1,25 @@
+/*reset*/
+.chrome-ex__scroll-top, .chrome-ex__scroll-top:hover, .chrome-ex__scroll-top:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.chrome-ex__scroll-top {
+  position: fixed;
+  content: '';
+  cursor: pointer;
+  background-size: 50px;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 50px;
+  height: 50px;
+  background-image: url('http://lilasresidence.com/links/top.png');
+  bottom: 50px;
+  right: 100px;
+}
+
+.chrome-ex__scroll-top.appear {
+  opacity: 0.6;
+}

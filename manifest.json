@@ -1,0 +1,19 @@
+{
+  "name": "fast-scroll-top",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A Chrome extension to save your pain of scrolling back to the top of the page.",
+  "homepage_url": "https://github.com/thomasyimgit/fast-scroll-top.git",
+  "author": "Chang Yan",
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "css": [
+      "src/style.css"
+    ],
+    "js": [
+      "src/index.js"
+    ]
+  }]
+}
